@@ -8,6 +8,7 @@ body {
 .jumbotron {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+    color: black;
     margin: 0 10%;
     padding: 1rem 1rem;
     background-color: rgba(237, 170, 2, .6)
@@ -29,4 +30,11 @@ body {
 .btn {
     background-color: black;
     border-color: orange;
+    color: orange;
+}
+
+.btn:hover {
+    background-color: orange;
+    border-color: black;
+    color: black;
 }
