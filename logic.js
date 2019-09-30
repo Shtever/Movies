@@ -35,7 +35,7 @@ var movies = [
 "Halloween II (2009)",
 "Halloween (2018)"
 ];
-
+ 
 for(var j = 0; j < movies.length; j++){
   $("#allMovies").append((movies[j]) + " // ");  
 }
